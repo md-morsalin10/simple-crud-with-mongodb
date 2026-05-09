@@ -34,7 +34,7 @@ const AddUsers = ({ userDataCreate }) => {
                                             <Button slot="close" variant="secondary">
                                                 Cancel
                                             </Button>
-                                            <Button type="submit" slot="close">Send Message</Button>
+                                            <Button type="submit" slot="close">Add user</Button>
                                         </Modal.Footer>
                                     </form>
                                 </Surface>

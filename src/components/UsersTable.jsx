@@ -30,7 +30,7 @@ const UsersTable = ({ usersData,deleteUserData }) => {
                                             <Link href={`/users/${user._id}`}>
                                                 <Button variant='primary'>Details</Button>
                                             </Link>
-                                            <Link href={`/users/${user._id}`}>
+                                            <Link href={`/users/${user._id}/edit`}>
                                                 <Button variant='secondary'>Edit</Button>
                                             </Link>
                                             <AlertDialog>
